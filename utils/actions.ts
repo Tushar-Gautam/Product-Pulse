@@ -2,7 +2,22 @@
 
 import prisma from "@/utils/db";
 import db from "@/utils/db";
+import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+
+const getAuthUser = async () => {
+  const user = await currentUser();
+  if (!user) {
+    throw new Error("You must be logged in to access this route");
+  }
+  return user;
+};
+const renderError = (error: unknown): { message: string } => {
+  console.log(error);
+  return {
+    message: error instanceof Error ? error.message : "An error occurred",
+  };
+};
 
 export const fetchFeaturedProducts = async () => {
   return await prisma.product.findMany({
@@ -40,5 +55,30 @@ export const createProductAction = async (
   prevState: any,
   formData: FormData
 ): Promise<{ message: string }> => {
-  return { message: "product created" };
+  const user = await getAuthUser();
+  try {
+    const name = formData.get("name") as string;
+    const company = formData.get("company") as string;
+    const price = Number(formData.get("price") as string);
+    //temp image
+    const image = formData.get("image") as File;
+    const description = formData.get("description") as string;
+    const featured = Boolean(formData.get("featured") as string);
+
+    await db.product.create({
+      data: {
+        name: name,
+        company: company,
+        price: price,
+        image: "/images/hero-1.webp",
+        description: description,
+        featured,
+        clerkId: user.id,
+      },
+    });
+
+    return { message: "Product created" };
+  } catch (error) {
+    return renderError(error);
+  }
 };
