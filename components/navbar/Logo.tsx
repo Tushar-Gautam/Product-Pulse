@@ -1,14 +1,19 @@
-import { VscCode } from "react-icons/vsc";
+import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
 
 function Logo() {
   return (
-    <Button size="icon" asChild>
-      <Link href="/">
-        <VscCode className="w-6 h-6" />
-      </Link>
-    </Button>
+    <Link href="/">
+      <Image
+        src="/logo.jpeg"
+        width={44}
+        height={44}
+        priority
+        alt="Logo Image"
+        className="rounded-md"
+      />
+    </Link>
   );
 }
 

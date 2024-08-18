@@ -21,6 +21,9 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
+        <head>
+          <link rel="icon" href="/logo.jpeg" sizes="any" />
+        </head>
         <body className={inter.className}>
           <Providers>
             <Navbar />
