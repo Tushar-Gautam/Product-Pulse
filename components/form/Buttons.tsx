@@ -41,3 +41,36 @@ export function SubmitButton({
     </Button>
   );
 }
+
+type actionType = "edit" | "delete";
+
+export const IconButton = ({ actionType }: { actionType: actionType }) => {
+  const { pending } = useFormStatus();
+
+  const renderIcon = () => {
+    switch (actionType) {
+      case "edit":
+        return <LuPenSquare />;
+      case "delete":
+        return <LuTrash2 />;
+      default:
+        const never: never = actionType;
+        throw new Error(`Unhandled action type: ${never}`);
+    }
+  };
+
+  return (
+    <Button
+      type="submit"
+      size="icon"
+      variant="link"
+      className="p-2 cursor-pointer hover:scale-110 hover:brightness-125"
+    >
+      {pending ? (
+        <ReloadIcon className="animate-spin hover:scale-100" />
+      ) : (
+        renderIcon()
+      )}
+    </Button>
+  );
+};
