@@ -64,12 +64,14 @@ export const IconButton = ({ actionType }: { actionType: actionType }) => {
       type="submit"
       size="icon"
       variant="link"
-      className="p-2 cursor-pointer hover:scale-110 hover:brightness-125"
+      className="p-2 cursor-pointer "
     >
       {pending ? (
-        <ReloadIcon className="animate-spin hover:scale-100" />
+        <ReloadIcon className="animate-spin" />
       ) : (
-        renderIcon()
+        <div className="hover:scale-110 hover:brightness-125">
+          {renderIcon()}
+        </div>
       )}
     </Button>
   );
