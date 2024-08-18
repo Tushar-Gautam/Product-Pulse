@@ -64,7 +64,8 @@ export const IconButton = ({ actionType }: { actionType: actionType }) => {
       type="submit"
       size="icon"
       variant="link"
-      className="p-2 cursor-pointer "
+      className="p-2 cursor-pointer"
+      disabled={pending}
     >
       {pending ? (
         <ReloadIcon className="animate-spin" />
@@ -95,12 +96,14 @@ export const CardSignInButton = () => {
 
 export const CardSubmitButton = ({ isFavorite }: { isFavorite: boolean }) => {
   const { pending } = useFormStatus();
+
   return (
     <Button
       type="submit"
       size="icon"
       variant="outline"
       className=" p-2 cursor-pointer"
+      disabled={pending}
     >
       {pending ? (
         <ReloadIcon className=" animate-spin" />
