@@ -20,7 +20,7 @@ function LinksDropDown() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="flex gap-4 max-w-[100px]">
+        <Button variant="outline" className="flex gap-4 max-w-[100px] ml-auto">
           <LuAlignLeft className="w-6 h-6" />
           <UserIcon />
         </Button>
