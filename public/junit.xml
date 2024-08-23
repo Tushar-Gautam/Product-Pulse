@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="190" failures="0" errors="0" time="190.848">
+    <testsuite name="app/routes/_main.about/__tests__/AboutPage.test.tsx" timestamp="2024-08-20T09:07:29.274Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.663">
+        <testcase classname="app/routes/_main.about/__tests__/AboutPage.test.tsx" name="about page is working fine &gt; highlights are getting rendered" time="0.66">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/routes/_main.discord-tournaments.($id)/__test__/DiscordTournament.test.tsx" timestamp="2024-08-20T09:07:29.275Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="7" failures="0" errors="0" skipped="0" time="22.586">
+        <testcase classname="app/routes/_main.discord-tournaments.($id)/__test__/DiscordTournament.test.tsx" name="discord tournament should work as expected &gt; when user is logged in but does not have server list" time="3.259">
+        </testcase>
+        <testcase classname="app/routes/_main.discord-tournaments.($id)/__test__/DiscordTournament.test.tsx" name="discord tournament should work as expected &gt; when user is logged in and has server list" time="2.273">
+        </testcase>
+        <testcase classname="app/routes/_main.discord-tournaments.($id)/__test__/DiscordTournament.test.tsx" name="discord tournament should work as expected &gt; when get tournament api fails" time="1.739">
+        </testcase>
+        <testcase classname="app/routes/_main.discord-tournaments.($id)/__test__/DiscordTournament.test.tsx" name="discord tournament should work as expected &gt; create tournament should work as expected" time="5.856">
+        </testcase>
+        <testcase classname="app/routes/_main.discord-tournaments.($id)/__test__/DiscordTournament.test.tsx" name="discord tournament should work as expected &gt; when create tournament api fails" time="5.662">
+        </testcase>
+        <testcase classname="app/routes/_main.discord-tournaments.($id)/__test__/DiscordTournament.test.tsx" name="discord tournament should work as expected &gt; delete and export tournament should work as expected" time="1.875">
+        </testcase>
+        <testcase classname="app/routes/_main.discord-tournaments.($id)/__test__/DiscordTournament.test.tsx" name="discord tournament should work as expected &gt; send announcement should work fine" time="1.918">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/routes/_main.do-not-sell-my-information/__test__/DontSellMyInfo.test.tsx" timestamp="2024-08-20T09:07:29.276Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.548">
+        <testcase classname="app/routes/_main.do-not-sell-my-information/__test__/DontSellMyInfo.test.tsx" name="TACComponent Test &gt; Test if elements have correct href and target attributes" time="0.544">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/routes/_main.esports-leagues/__test__/EsportsPage.test.tsx" timestamp="2024-08-20T09:07:29.276Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="3" failures="0" errors="0" skipped="0" time="1.838">
+        <testcase classname="app/routes/_main.esports-leagues/__test__/EsportsPage.test.tsx" name="esports page is working fine &gt; page is getting rendered" time="0.49">
+        </testcase>
+        <testcase classname="app/routes/_main.esports-leagues/__test__/EsportsPage.test.tsx" name="esports page is working fine &gt; background image is present with all other elements" time="0.399">
+        </testcase>
+        <testcase classname="app/routes/_main.esports-leagues/__test__/EsportsPage.test.tsx" name="esports page is working fine &gt; highlights are getting rendered" time="0.947">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/routes/_main.faq/__test__/FAQComponent.test.tsx" timestamp="2024-08-20T09:07:29.277Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.472">
+        <testcase classname="app/routes/_main.faq/__test__/FAQComponent.test.tsx" name="FAQ Component Tests &gt; Test if elements have correct href and target attributes" time="0.463">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/routes/_main.home/__test__/HomePage.test.tsx" timestamp="2024-08-20T09:07:29.277Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="2.363">
+        <testcase classname="app/routes/_main.home/__test__/HomePage.test.tsx" name="homepage is working fine &gt; check if all the component are present" time="2.36">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/routes/_main.subscription/__test__/FeatureAvailabilityStatus.test.tsx" timestamp="2024-08-20T09:07:29.278Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="4" failures="0" errors="0" skipped="0" time="1.961">
+        <testcase classname="app/routes/_main.subscription/__test__/FeatureAvailabilityStatus.test.tsx" name="Feature Availability Status Tests &gt; should render available tick mark if feature is available" time="0.577">
+        </testcase>
+        <testcase classname="app/routes/_main.subscription/__test__/FeatureAvailabilityStatus.test.tsx" name="Feature Availability Status Tests &gt; should render not available tick mark if feature is not available" time="0.37">
+        </testcase>
+        <testcase classname="app/routes/_main.subscription/__test__/FeatureAvailabilityStatus.test.tsx" name="Feature Availability Status Tests &gt; should render multiple features" time="0.534">
+        </testcase>
+        <testcase classname="app/routes/_main.subscription/__test__/FeatureAvailabilityStatus.test.tsx" name="Feature Availability Status Tests &gt; should render no additional info if not provided" time="0.477">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/routes/_main.subscription/__test__/PremiumPage.test.tsx" timestamp="2024-08-20T09:07:29.279Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="3" failures="0" errors="0" skipped="0" time="3.846">
+        <testcase classname="app/routes/_main.subscription/__test__/PremiumPage.test.tsx" name="Premium Page Tests &gt; Should render Plans if user is not logged in" time="0.532">
+        </testcase>
+        <testcase classname="app/routes/_main.subscription/__test__/PremiumPage.test.tsx" name="Premium Page Tests &gt; Should render Plans if logged in and user does not have premium subscription" time="1.712">
+        </testcase>
+        <testcase classname="app/routes/_main.subscription/__test__/PremiumPage.test.tsx" name="Premium Page Tests &gt; Should render Plans if logged in and user has premium subscription" time="1.6">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/routes/_main.terms-and-conditions/__test__/TACComponent.test.tsx" timestamp="2024-08-20T09:07:29.280Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.439">
+        <testcase classname="app/routes/_main.terms-and-conditions/__test__/TACComponent.test.tsx" name="TACComponent Test &gt; Test if elements have correct href and target attributes" time="0.438">
+            <system-err>
+Warning: Each child in a list should have a unique &quot;key&quot; prop.
+
+Check the render method of `TACComponent`. See https://reactjs.org/link/warning-keys for more information.
+    at TACComponent
+    at LazyMotion (file:///builds/sizzlegg/frontend/react-responsive-v1/node_modules/framer-motion/dist/es/components/LazyMotion/index.mjs:41:23)
+    at FramerMotionContextProvider (/builds/sizzlegg/frontend/react-responsive-v1/libs/utils/src/framer/context.tsx:8:40)
+    at EnvironmentProvider (file:///builds/sizzlegg/frontend/react-responsive-v1/node_modules/@ark-ui/react/dist/providers/environment/environment-provider.js:9:11)
+    at PageContextProvider (/builds/sizzlegg/frontend/react-responsive-v1/apps/rr2/app/root/PageContextProvider.tsx:9:32)
+    at InnerContexts (/builds/sizzlegg/frontend/react-responsive-v1/apps/rr2/app/root/DataContexts.tsx:23:26)
+    at HypertuneRootProvider (/builds/sizzlegg/frontend/react-responsive-v1/libs/hypertune/src/generated/hypertune.react.tsx:96:3)
+    at HypertuneHydrator (/builds/sizzlegg/frontend/react-responsive-v1/libs/hypertune/src/generated/hypertune.react.tsx:117:3)
+    at HypertuneSourceProvider (/builds/sizzlegg/frontend/react-responsive-v1/libs/hypertune/src/generated/hypertune.react.tsx:33:3)
+    at HypertuneProvider (/builds/sizzlegg/frontend/react-responsive-v1/libs/hypertune/src/generated/hypertune.react.tsx:11:3)
+    at AppHypertuneProvider (/builds/sizzlegg/frontend/react-responsive-v1/libs/hypertune/src/AppHypertuneProvider.tsx:34:33)
+    at Provider (file:///builds/sizzlegg/frontend/react-responsive-v1/node_modules/react-redux/dist/react-redux.mjs:1036:3)
+    at DataContexts (/builds/sizzlegg/frontend/react-responsive-v1/apps/rr2/app/root/DataContexts.tsx:62:25)
+    at Router (/builds/sizzlegg/frontend/react-responsive-v1/node_modules/react-router/dist/umd/react-router.development.js:1174:17)
+    at BrowserRouter (/builds/sizzlegg/frontend/react-responsive-v1/node_modules/react-router-dom/dist/umd/react-router-dom.development.js:694:7)
+    at testWrapper (/builds/sizzlegg/frontend/react-responsive-v1/apps/rr2/app/legacy/imports/helpers/testUtils.tsx:173:26)
+
+            </system-err>
+        </testcase>
+    </testsuite>
+    <testsuite name="app/routes/_main.universal/__test__/UniversalPage.test.tsx" timestamp="2024-08-20T09:07:29.280Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="2.178">
+        <testcase classname="app/routes/_main.universal/__test__/UniversalPage.test.tsx" name="Universal Page should work fine &gt; Free trial should work fine" time="2.174">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/helpers/__test__/convertGame.test.jsx" timestamp="2024-08-20T09:07:29.281Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.003">
+        <testcase classname="app/legacy/imports/helpers/__test__/convertGame.test.jsx" name="test convertGame function &gt; convertGame should give correct response for different parameter" time="0.001">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/helpers/__test__/getStreamSource.test.jsx" timestamp="2024-08-20T09:07:29.281Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.003">
+        <testcase classname="app/legacy/imports/helpers/__test__/getStreamSource.test.jsx" name="test getStreamSource function &gt; getStreamSource should give correct response for different parameter" time="0.001">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/utility/__test__/setLinkingDataLocal.test.jsx" timestamp="2024-08-20T09:07:29.281Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.005">
+        <testcase classname="app/legacy/imports/utility/__test__/setLinkingDataLocal.test.jsx" name="testing linking data utils &gt; testing if setLinkingDataLocal function is working and setting data" time="0.003">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/AccountDetailsComponent/__test__/AccountDetailsComponent.test.jsx" timestamp="2024-08-20T09:07:29.282Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.598">
+        <testcase classname="app/legacy/imports/components/AccountDetailsComponent/__test__/AccountDetailsComponent.test.jsx" name="test account details component &gt; test if default password is working" time="0.595">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/AccountLinkingModalComponent/__test__/AccountLinkModalComponent.test.jsx" timestamp="2024-08-20T09:07:29.283Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.397">
+        <testcase classname="app/legacy/imports/components/AccountLinkingModalComponent/__test__/AccountLinkModalComponent.test.jsx" name="testing if the account link modal works fine &gt; testing invalid cases" time="0.395">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/BackToTop/__test__/BackToTop.test.jsx" timestamp="2024-08-20T09:07:29.283Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="2" failures="0" errors="0" skipped="0" time="0.779">
+        <testcase classname="app/legacy/imports/components/BackToTop/__test__/BackToTop.test.jsx" name="Back to top button &gt; Back to top button should call scrollTo" time="0.428">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/BackToTop/__test__/BackToTop.test.jsx" name="Back to top button &gt; should not render anything when scrollPosition is less than 1000" time="0.348">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/ErrorComponent/__test__/ErrorComponent.test.jsx" timestamp="2024-08-20T09:07:29.283Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.412">
+        <testcase classname="app/legacy/imports/components/ErrorComponent/__test__/ErrorComponent.test.jsx" name="Testing if error component works fine &gt; When there is no error passed" time="0.409">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/PlayerTests/__test__/player.test.tsx" timestamp="2024-08-20T09:07:29.284Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="6.04">
+        <testcase classname="app/legacy/imports/components/PlayerTests/__test__/player.test.tsx" name="test if player is working fine &gt; test play next and prev functionality" time="6.037">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/SharingModal/__test__/ClipSharingModal.test.jsx" timestamp="2024-08-20T09:07:29.284Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.584">
+        <testcase classname="app/legacy/imports/components/SharingModal/__test__/ClipSharingModal.test.jsx" name="clip sharing modal unit tests should work &gt; modal is not working without account prop" time="0.58">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/SignInComponent/__test__/SignInComponent.test.jsx" timestamp="2024-08-20T09:07:29.284Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="5" failures="0" errors="0" skipped="0" time="4.418">
+        <testcase classname="app/legacy/imports/components/SignInComponent/__test__/SignInComponent.test.jsx" name="Login Tests &gt; Check if render correctly and input fields are working as expected" time="0.744">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/SignInComponent/__test__/SignInComponent.test.jsx" name="Login Tests &gt; Check for login success" time="1.242">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/SignInComponent/__test__/SignInComponent.test.jsx" name="Login Tests &gt; Check for login api failure with error 204 status" time="0.988">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/SignInComponent/__test__/SignInComponent.test.jsx" name="Login Tests &gt; Check for user api failure with status 204" time="0.711">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/SignInComponent/__test__/SignInComponent.test.jsx" name="Login Tests &gt; Check for login failure" time="0.731">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/SignUpComponent/__test__/AlreadyUsedUsername.test.tsx" timestamp="2024-08-20T09:07:29.285Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="1.628">
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/AlreadyUsedUsername.test.tsx" name="Signup Tests &gt; Check for already used username" time="1.627">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/SignUpComponent/__test__/CreateAccount.test.tsx" timestamp="2024-08-20T09:07:29.286Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="5" failures="0" errors="0" skipped="0" time="6.313">
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/CreateAccount.test.tsx" name="Signup Tests &gt; Check if render correctly and input fields are working as expected" time="1.525">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/CreateAccount.test.tsx" name="Signup Tests &gt; Check for signup success" time="1.101">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/CreateAccount.test.tsx" name="Signup Tests &gt; Check for validation success" time="1.111">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/CreateAccount.test.tsx" name="Signup Tests &gt; Check for validation failure" time="1.139">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/CreateAccount.test.tsx" name="Signup Tests &gt; test signup flow with user feedback" time="1.434">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/SignUpComponent/__test__/CreateAccountFailure.test.tsx" timestamp="2024-08-20T09:07:29.287Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="2.06">
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/CreateAccountFailure.test.tsx" name="Signup Tests &gt; Check for signup failure" time="2.058">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/SignUpComponent/__test__/DiscordLogin.test.tsx" timestamp="2024-08-20T09:07:29.287Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="2.55">
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/DiscordLogin.test.tsx" name="Discord Login test &gt; Discord login should work fine" time="2.549">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/SignUpComponent/__test__/DiscordLoginFailure.test.tsx" timestamp="2024-08-20T09:07:29.287Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.988">
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/DiscordLoginFailure.test.tsx" name="discord login failure test &gt; test if get username from token fails " time="0.986">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/SignUpComponent/__test__/SignUpLogIn.test.tsx" timestamp="2024-08-20T09:07:29.288Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="2" failures="0" errors="0" skipped="0" time="4.459">
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/SignUpLogIn.test.tsx" name="signup/login flow should work fine &gt; singup flow should work fine" time="3.026">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/SignUpComponent/__test__/SignUpLogIn.test.tsx" name="signup/login flow should work fine &gt; login flow should work fine" time="1.431">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/hoc/HashedVideoLoader/__test__/HashedVideoLoader.test.jsx" timestamp="2024-08-20T09:07:29.288Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="2" failures="0" errors="0" skipped="0" time="3.116">
+        <testcase classname="app/legacy/imports/hoc/HashedVideoLoader/__test__/HashedVideoLoader.test.jsx" name="hash video loader should work fine &gt; render properly when user is logged out" time="1.999">
+        </testcase>
+        <testcase classname="app/legacy/imports/hoc/HashedVideoLoader/__test__/HashedVideoLoader.test.jsx" name="hash video loader should work fine &gt; hash video loader should work fine when login" time="1.115">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/hoc/HashedVideoLoader/__test__/HashedVideoLoaderFailure.test.jsx" timestamp="2024-08-20T09:07:29.289Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.552">
+        <testcase classname="app/legacy/imports/hoc/HashedVideoLoader/__test__/HashedVideoLoaderFailure.test.jsx" name="should show error when api fails &gt; when hash by id api fails, should render error component" time="0.55">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/hoc/HashedVideoLoader/__test__/LinkToVideoPlayer.test.jsx" timestamp="2024-08-20T09:07:29.289Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="2" failures="0" errors="0" skipped="0" time="2.292">
+        <testcase classname="app/legacy/imports/hoc/HashedVideoLoader/__test__/LinkToVideoPlayer.test.jsx" name="url sharing should work when user come directly on link sharing page by writing url &gt; render link to video component to directly with valid clip id, skipping hash video loader" time="1.918">
+        </testcase>
+        <testcase classname="app/legacy/imports/hoc/HashedVideoLoader/__test__/LinkToVideoPlayer.test.jsx" name="url sharing should work when user come directly on link sharing page by writing url &gt; link to video component should show error when api fails" time="0.371">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/hooks/useEffects/__test__/useLinkAccounts.test.jsx" timestamp="2024-08-20T09:07:29.290Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.911">
+        <testcase classname="app/legacy/imports/hooks/useEffects/__test__/useLinkAccounts.test.jsx" name="test useLinkAccounts hook &gt; test useLinkAccounts hook with wrong account type" time="0.907">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/__test__/ErrorPage.test.jsx" timestamp="2024-08-20T09:07:29.290Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.767">
+        <testcase classname="app/legacy/imports/pages/dynamic/__test__/ErrorPage.test.jsx" name="Testing error page &gt; error page should render" time="0.765">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/DashboardComponents/DetailsComponent/__test__/ProcessedSizzle.test.jsx" timestamp="2024-08-20T09:07:29.290Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="2" failures="0" errors="0" skipped="0" time="1.009">
+        <testcase classname="app/legacy/imports/components/DashboardComponents/DetailsComponent/__test__/ProcessedSizzle.test.jsx" name="processed sizzle tests &gt; test if clip is working properly" time="0.469">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/DashboardComponents/DetailsComponent/__test__/ProcessedSizzle.test.jsx" name="processed sizzle tests &gt; test if sizzle is working properly" time="0.537">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/ui/BackArrowIcon/__test__/BackArrowIcon.test.jsx" timestamp="2024-08-20T09:07:29.291Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.019">
+        <testcase classname="app/legacy/imports/components/ui/BackArrowIcon/__test__/BackArrowIcon.test.jsx" name="test BackArrowIcon &gt; check if button have correct src" time="0.015">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/ui/Footer/__test__/Footer.test.jsx" timestamp="2024-08-20T09:07:29.291Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="4" failures="0" errors="0" skipped="0" time="4.694">
+        <testcase classname="app/legacy/imports/components/ui/Footer/__test__/Footer.test.jsx" name="Footer Tests &gt; Test if icons are working fine" time="1.116">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/ui/Footer/__test__/Footer.test.jsx" name="Footer Tests &gt; Test if links are working fine" time="1.006">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/ui/Footer/__test__/Footer.test.jsx" name="Footer Tests &gt; test mascot, dashboard and signup button for other pages getting button text not from hypertune" time="1.185">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/ui/Footer/__test__/Footer.test.jsx" name="Footer Tests &gt; test mascot, dashboard and signup button for homepage getting button text from hypertune" time="1.385">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/ui/GameIcon/__test__/GameIcon.test.jsx" timestamp="2024-08-20T09:07:29.292Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="0.598">
+        <testcase classname="app/legacy/imports/components/ui/GameIcon/__test__/GameIcon.test.jsx" name="test GameIcon util &gt; should render name when source is not available" time="0.592">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/ui/GearsRotating/__test__/GearsRotating.test.jsx" timestamp="2024-08-20T09:07:29.293Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="2" failures="0" errors="0" skipped="0" time="0.9">
+        <testcase classname="app/legacy/imports/components/ui/GearsRotating/__test__/GearsRotating.test.jsx" name="test GearsRotating Component &gt; Should render correctly with lg size" time="0.524">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/ui/GearsRotating/__test__/GearsRotating.test.jsx" name="test GearsRotating Component &gt; Should render correctly with sm size" time="0.374">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/ui/HomePageCarousel/__test__/HomePageCarousel.test.jsx" timestamp="2024-08-20T09:07:29.293Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="3" failures="0" errors="0" skipped="0" time="4.518">
+        <testcase classname="app/legacy/imports/components/ui/HomePageCarousel/__test__/HomePageCarousel.test.jsx" name="new homepage carousel should work fine &gt; checking button with user logged in" time="3.317">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/ui/HomePageCarousel/__test__/HomePageCarousel.test.jsx" name="new homepage carousel should work fine &gt; checking button with user logged out" time="0.685">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/ui/HomePageCarousel/__test__/HomePageCarousel.test.jsx" name="new homepage carousel should work fine &gt; carousel should work fine" time="0.514">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/CustomCompilation.test.jsx" timestamp="2024-08-20T09:07:29.294Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="7" failures="0" errors="0" skipped="0" time="51.809">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/CustomCompilation.test.jsx" name="custom compilation test &gt; exit from compilation component without creating custom comp test without any clip" time="5.461">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/CustomCompilation.test.jsx" name="custom compilation test &gt; exit from compilation component without creating custom comp test with atleast 1 clip" time="5.264">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/CustomCompilation.test.jsx" name="custom compilation test &gt; create custom compilation failed test" time="7.068">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/CustomCompilation.test.jsx" name="custom compilation test &gt; when creating new custom compilation" time="8.77">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/CustomCompilation.test.jsx" name="custom compilation test &gt; reorder and remove clip from custom compilation should work" time="8.931">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/CustomCompilation.test.jsx" name="custom compilation test &gt; add clips to custom compilation should work" time="10.561">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/CustomCompilation.test.jsx" name="custom compilation test &gt; clips fetch fails test" time="5.751">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" timestamp="2024-08-20T09:07:29.295Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="32" failures="0" errors="0" skipped="0" time="182.662">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="render when there is no streamer &gt; rendering dashboard" time="0.741">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="render when there is no streamer &gt; signin should open signin modal" time="0.729">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="render when there is no streamer &gt; href should go to streams page" time="0.98">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="render when there is streamer but no streaming account linked &gt; check if login is working" time="2.152">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="render when there is streamer but no streaming account linked &gt; check if dashboard is getting rendered properly" time="1.689">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="render when there is streamer but no streaming account linked &gt; link button should open account linking modal" time="1.67">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="render when there is streamer but no streaming account linked &gt; account tab is working" time="1.493">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and has linked account and there are no streams present &gt; signin in with user having account linked and no stream present" time="1.207">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and has linked account and there are no streams present &gt; link button is showing linking modal" time="1.98">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and has linked account and there are no processed streams &gt; signin in with user having no processed stream " time="1.513">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing when there is streamer with processed streams but no account linked &gt; signing in with proper user" time="1.884">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing when there is streamer with processed streams but no account linked &gt; Test if streams are being loaded" time="2.194">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing when there is streamer with processed streams but no account linked &gt; checking user with no streaming account linked" time="3.093">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; signing in with proper user" time="2.621">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; Test if streams are being loaded" time="35.508">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; Clips and sizzles are being loaded properly" time="4.499">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; test if clip rating works properly" time="5.715">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; test if clip edit/adjust button popups and works properly" time="4.855">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; test if mobile screen changes work properly" time="3.376">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; copy short url success" time="4.19">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; copy short url fail" time="4.669">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; Testing error stream functionality" time="3.297">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; Testing acceptable error stream functionality" time="2.276">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; Testing refresh functionality" time="34.521">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; Test when refresh functionality fails" time="33.569">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; Testing add to cart functionality" time="5.619">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; tiktok sharing should work fine" time="2.957">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; tiktok sharing should show error error modal when API throws error" time="2.891">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; twitter sharing should work fine" time="5.891">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer and there are processed streams  &gt; twitter sharing should error is thrown when server returns error" time="1.856">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer but profile Id is null for twitter and there are processed streams  &gt; signing in with proper user" time="1.113">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Dashboard.test.jsx" name="testing for when there is streamer but profile Id is null for twitter and there are processed streams  &gt; twitter sharing when profile Id is null in external accounts" time="1.904">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Deletion.test.jsx" timestamp="2024-08-20T09:07:29.300Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="3" failures="0" errors="0" skipped="0" time="15.521">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Deletion.test.jsx" name="Delete stream, clips and sizzles tests &gt; Test Delete Stream" time="5.103">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Deletion.test.jsx" name="Delete stream, clips and sizzles tests &gt; Delete Clip" time="6.016">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Deletion.test.jsx" name="Delete stream, clips and sizzles tests &gt; Delete Sizzle" time="4.401">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Edit.test.jsx" timestamp="2024-08-20T09:07:29.300Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="3" failures="0" errors="0" skipped="0" time="21.486">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Edit.test.jsx" name="test edit clip functionality &gt; should not update clip and show error when hashcut give error" time="5.551">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Edit.test.jsx" name="test edit clip functionality &gt; should not update clip and show error when backend give error" time="7.136">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Edit.test.jsx" name="test edit clip functionality &gt; edit clip success, should call api and update data" time="8.792">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/FileUpload.test.jsx" timestamp="2024-08-20T09:07:29.301Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="4" failures="0" errors="0" skipped="0" time="10.952">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/FileUpload.test.jsx" name="test file upload failure tests when render when there is streamer but no streaming account linked &gt; 4 hour duration should not be present when duration is null" time="3.091">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/FileUpload.test.jsx" name="test file upload failure tests when render when there is streamer but no streaming account linked &gt; test when there is no account linked" time="3.893">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/FileUpload.test.jsx" name="test file upload failure tests when render when there is streamer but no streaming account linked &gt; test upload file size limit" time="2.211">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/FileUpload.test.jsx" name="test file upload failure tests when render when there is streamer but no streaming account linked &gt; test upload file 4 gb size limit" time="1.754">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Filters.test.jsx" timestamp="2024-08-20T09:07:29.302Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="5" failures="0" errors="0" skipped="0" time="19.255">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Filters.test.jsx" name="filter bar, delete stream, clips and sizzles tests &gt; signing in with proper user" time="2.56">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Filters.test.jsx" name="filter bar, delete stream, clips and sizzles tests &gt; Test if streams are being loaded" time="2.09">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Filters.test.jsx" name="filter bar, delete stream, clips and sizzles tests &gt; testing if filter bar is rendering properly and clip, compilations checkbox are working properly" time="4.089">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Filters.test.jsx" name="filter bar, delete stream, clips and sizzles tests &gt; checkbox are working properly from kills to longshots kills" time="5.104">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/Filters.test.jsx" name="filter bar, delete stream, clips and sizzles tests &gt; checkbox are working properly from doubleKills kills to teamwipes" time="5.41">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/MaxFileSize.test.jsx" timestamp="2024-08-20T09:07:29.317Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="3.173">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/MaxFileSize.test.jsx" name="testing file size limit &gt; unprocessed stream of more than four hours should show warning" time="3.172">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/OnBoarding.test.tsx" timestamp="2024-08-20T09:07:29.317Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="8" failures="0" errors="0" skipped="0" time="15.243">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/OnBoarding.test.tsx" name="on boarding tests &gt; checking dashboard when on boarding has not started &gt; should show on boarding modal" time="2.673">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/OnBoarding.test.tsx" name="on boarding tests &gt; checking dashboard when on boarding has not started &gt; testing for banner" time="1.947">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/OnBoarding.test.tsx" name="on boarding tests &gt; checking dashboard when on boarding has not started &gt; testing for Your Vods section of dashboard" time="1.749">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/OnBoarding.test.tsx" name="on boarding tests &gt; checking dashboard when on boarding has not started &gt; testing for Clips section of dashboard" time="1.249">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/OnBoarding.test.tsx" name="on boarding tests &gt; checking dashboard when on boarding has not started &gt; testing for filter and other options section" time="1.58">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/OnBoarding.test.tsx" name="on boarding tests &gt; checking on boarding flow &gt; all steps of on boarding using on boarding modal" time="2.315">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/OnBoarding.test.tsx" name="on boarding tests &gt; checking on boarding flow &gt; all steps of on boarding using on board me button your vods section" time="2.475">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/OnBoarding.test.tsx" name="on boarding tests &gt; checking on boarding flow &gt; checking if stopping onboarding works" time="1.252">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/PremiumBanner.test.jsx" timestamp="2024-08-20T09:07:29.321Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="4" failures="0" errors="0" skipped="0" time="5.207">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/PremiumBanner.test.jsx" name="premium header tests &gt; test when user is logout out" time="0.889">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/PremiumBanner.test.jsx" name="premium header tests &gt; test for non premium user" time="1.86">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/PremiumBanner.test.jsx" name="premium header tests &gt; test for premium user" time="1.601">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/PremiumBanner.test.jsx" name="premium header tests &gt; dashboard survey test cases" time="0.849">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/SubmitForFeatured.test.tsx" timestamp="2024-08-20T09:07:29.322Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="3" failures="0" errors="0" skipped="0" time="13.689">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/SubmitForFeatured.test.tsx" name="Submit for Featured &gt; Should not show the submit for featured button for non premium users" time="3.87">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/SubmitForFeatured.test.tsx" name="Submit for Featured &gt; Should show the submit for featured button for premium users and submit for featured should work" time="5.381">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/SubmitForFeatured.test.tsx" name="Submit for Featured &gt; Should show the submit for featured button for premium users and submit for featured api fails" time="4.437">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TiktokSharePortrait.test.jsx" timestamp="2024-08-20T09:07:29.323Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="5" failures="0" errors="0" skipped="0" time="29.094">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TiktokSharePortrait.test.jsx" name="tiktok portrait share tests  &gt; signing in with proper user" time="2.338">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TiktokSharePortrait.test.jsx" name="tiktok portrait share tests  &gt; tiktok portrait share success" time="8.165">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TiktokSharePortrait.test.jsx" name="tiktok portrait share tests  &gt; tiktok share when facecam api failed" time="4.1">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TiktokSharePortrait.test.jsx" name="tiktok portrait share tests  &gt; tiktok portrait share when share api fails" time="6.695">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TiktokSharePortrait.test.jsx" name="tiktok portrait share tests  &gt; post tiktok regular clip from edit coordinates modals" time="7.792">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TopClips.test.tsx" timestamp="2024-08-20T09:07:29.325Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="5" failures="0" errors="0" skipped="0" time="9.575">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TopClips.test.tsx" name="Top Clips test &gt; Top clips should not be visible if the user if not signed in" time="0.687">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TopClips.test.tsx" name="Top Clips test &gt; Top Clips should not be visible if the user is signed in and no streams are present" time="2.346">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TopClips.test.tsx" name="Top Clips test &gt; Top Clips should not be visible if the user is signed in and no streams Processed and no top clips" time="1.976">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TopClips.test.tsx" name="Top Clips test &gt; Top Clips should be visible if the user is signed in and user has top rated clips" time="2.206">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/TopClips.test.tsx" name="Top Clips test &gt; All the top clips and cards should be visible if the user clicks on see best sizzles" time="2.356">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" timestamp="2024-08-20T09:07:29.327Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="10" failures="0" errors="0" skipped="0" time="36.421">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; signing in with proper user" time="2.54">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; render with no moments with owner" time="2.299">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; render with no moments no owner" time="1.042">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; add and remove clip to profile success" time="5.124">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; add clip to profile failure" time="3.245">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; remove clip from profile failure" time="5.463">
+            <system-out>
+[1mnull[22m
+
+            </system-out>
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; edit bio, avatar and reorder clips using configure modal" time="6.565">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; edit bio, avatar and reorder clips using configure modal failure" time="5.219">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; render profile page should work fine" time="1.864">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/UserProfile.test.jsx" name="user profile tests  &gt; like sizzle and copy url failure" time="3.054">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/autoRefreshStreams.test.tsx" timestamp="2024-08-20T09:07:29.335Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="3" failures="0" errors="0" skipped="0" time="15.341">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/autoRefreshStreams.test.tsx" name="auto refresh stream test &gt; refresh stream should work when no last refresh time in localStorage" time="6.53">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/autoRefreshStreams.test.tsx" name="auto refresh stream test &gt; streams should not be refreshed if they were refreshed in the last hour" time="2.746">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/autoRefreshStreams.test.tsx" name="auto refresh stream test &gt; streams should be refreshed if they were last refreshed more than an hour ago" time="6.063">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/sortClips.test.tsx" timestamp="2024-08-20T09:07:29.336Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="1" failures="0" errors="0" skipped="0" time="4.976">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/sortClips.test.tsx" name="test sort by excitement &gt; sort by excitement should work fine" time="4.973">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/watermarkRemoval.test.jsx" timestamp="2024-08-20T09:07:29.337Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="2" failures="0" errors="0" skipped="0" time="10.234">
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/watermarkRemoval.test.jsx" name="watermark removal tests &gt; should show watermark removal button and modal for non premium users" time="7.496">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/DashboardPage2.0/__test__/watermarkRemoval.test.jsx" name="watermark removal tests &gt; remove watermark button should not appear for premium users" time="2.736">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/Subscriptions.test.tsx" timestamp="2024-08-20T09:07:29.337Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="2" failures="0" errors="0" skipped="0" time="3.996">
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/Subscriptions.test.tsx" name="subscriptions page tests &gt; test subscription upgrade option if logged in and not subscribed" time="2.587">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/Subscriptions.test.tsx" name="subscriptions page tests &gt; test subscription upgrade option if logged in and subscribed" time="1.408">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" timestamp="2024-08-20T09:07:29.338Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="15" failures="0" errors="0" skipped="0" time="21.175">
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; Check for login success" time="1.444">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; UserSettings Page Tests" time="2.169">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; test when put Incorrect old password while changing password" time="0.845">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; test streaming accounts tab test" time="0.486">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; test social media accounts tab test" time="0.384">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; unlink account" time="0.452">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; link twitch account" time="0.314">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; test account linking success modal" time="1.39">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; clearing all data by signing out " time="0.807">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; login user with one linked accounts and without profile name" time="0.949">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; render usersettings without linked accounts" time="0.311">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; delete account success" time="5.75">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; delete account failure" time="1.704">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; update user email successfully" time="2.04">
+        </testcase>
+        <testcase classname="app/legacy/imports/pages/dynamic/UserSettingsPage/__test__/UserSettingsPage.test.jsx" name="UserSettings Page Tests Container &gt; update user email failure" time="2.126">
+        </testcase>
+    </testsuite>
+    <testsuite name="app/legacy/imports/components/DashboardComponents/InfoComponent/StreamComponent/__test__/StreamComponent.test.jsx" timestamp="2024-08-20T09:07:29.340Z" hostname="runner-vzyxog-7o-project-39351960-concurrent-1" tests="8" failures="0" errors="0" skipped="0" time="10.634">
+        <testcase classname="app/legacy/imports/components/DashboardComponents/InfoComponent/StreamComponent/__test__/StreamComponent.test.jsx" name="Streamer component tests &gt; Signin with correct user" time="1.076">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/DashboardComponents/InfoComponent/StreamComponent/__test__/StreamComponent.test.jsx" name="Streamer component tests &gt; testing for when there is streamer and there are processed streams  &gt; clearing all data by signing out " time="1.568">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/DashboardComponents/InfoComponent/StreamComponent/__test__/StreamComponent.test.jsx" name="Streamer component tests &gt; testing for when there is streamer and there are processed streams  &gt; signing in with proper user" time="2.436">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/DashboardComponents/InfoComponent/StreamComponent/__test__/StreamComponent.test.jsx" name="Streamer component tests &gt; testing for when there is streamer and there are processed streams  &gt; Test if streams are being loaded" time="0.795">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/DashboardComponents/InfoComponent/StreamComponent/__test__/StreamComponent.test.jsx" name="Streamer component tests &gt; testing for when there is streamer and there are processed streams  &gt; Clips and sizzles are being loaded for compilations tabs" time="3.254">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/DashboardComponents/InfoComponent/StreamComponent/__test__/StreamComponent.test.jsx" name="Streamer component tests &gt; processed stream test" time="0.407">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/DashboardComponents/InfoComponent/StreamComponent/__test__/StreamComponent.test.jsx" name="Streamer component tests &gt; unprocessed stream test" time="0.493">
+        </testcase>
+        <testcase classname="app/legacy/imports/components/DashboardComponents/InfoComponent/StreamComponent/__test__/StreamComponent.test.jsx" name="Streamer component tests &gt; processed stream with more than 4 hour test" time="0.603">
+        </testcase>
+    </testsuite>
+</testsuites>
