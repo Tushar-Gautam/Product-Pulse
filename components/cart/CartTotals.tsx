@@ -15,9 +15,7 @@ function CartTotals({ cart }: { cart: Cart }) {
         <CartTotalRow label="Shipping" amount={shipping} />
         <CartTotalRow label="tax" amount={tax} />
         <CardTitle className="mt-8">
-          <CardTitle>
-            <CartTotalRow label="order total" amount={orderTotal} lastRow />
-          </CardTitle>
+          <CartTotalRow label="order total" amount={orderTotal} lastRow />
         </CardTitle>
       </Card>
       <FormContainer action={createOrderAction}>
