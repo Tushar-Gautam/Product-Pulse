@@ -9,7 +9,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sell Stuff Online",
+  title: "Product Pulse",
   description: "A Nifty store built with Next.js",
 };
 
