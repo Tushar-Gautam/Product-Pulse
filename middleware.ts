@@ -3,6 +3,12 @@ import { NextResponse } from "next/server";
 
 const isPublicRoute = createRouteMatcher(["/", "/products(.*)", "/about"]);
 const isAdminRoute = createRouteMatcher(["/admin(.*)"]);
+const isPrivateRoute = createRouteMatcher([
+  "/cart",
+  "/favorites",
+  "/orders",
+  "/reviews",
+]);
 
 export default clerkMiddleware((auth, req) => {
   const isAdminUser = auth().userId === process.env.ADMIN_USER_ID;
@@ -10,8 +16,10 @@ export default clerkMiddleware((auth, req) => {
   if (isAdminRoute(req) && !isAdminUser) {
     return NextResponse.redirect(new URL("/", req.url));
   }
-
-  if (!isPublicRoute(req)) auth().protect();
+  if (isPrivateRoute(req)) auth().protect();
+  if (!isAdminRoute(req) && !isPrivateRoute(req) && !isPublicRoute(req)) {
+    return NextResponse.redirect(new URL("/", req.url));
+  }
 });
 
 export const config = {
