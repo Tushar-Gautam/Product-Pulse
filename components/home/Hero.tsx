@@ -14,7 +14,7 @@ function Hero() {
           Discover the latest trends, quality products, and a seamless shopping
           experience. From essentials to something special, we&apos;ve got you
           covered. Shop smarter, live better, and stay in tune with the pulse of
-          modern retai
+          modern retail.
         </p>
         <Button asChild size="lg" className="mt-10">
           <Link href="/products">Shop Now</Link>

@@ -66,7 +66,7 @@
     "name": "elegant dining table",
     "company": "FeastFurnish",
     "description": "An elegant dining table with a sleek finish, ideal for family dinners.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 600,
     "clerkId": "clerkId"
@@ -84,7 +84,7 @@
     "name": "modern TV stand",
     "company": "TechSpace",
     "description": "A sleek TV stand with a modern design, perfect for your entertainment setup.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/6580225/pexels-photo-6580225.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 120,
     "clerkId": "clerkId"
@@ -93,7 +93,7 @@
     "name": "rustic coffee table",
     "company": "TimberCraft",
     "description": "A rustic coffee table with a sturdy build, adding warmth to any living room.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/2387754/pexels-photo-2387754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 200,
     "clerkId": "clerkId"
@@ -111,7 +111,7 @@
     "name": "ergonomic office chair",
     "company": "WorkComfort",
     "description": "An ergonomic office chair designed for maximum comfort and productivity.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 300,
     "clerkId": "clerkId"
@@ -129,7 +129,7 @@
     "name": "contemporary side table",
     "company": "UrbanLuxe",
     "description": "A contemporary side table that blends seamlessly with modern decor.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/6373015/pexels-photo-6373015.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 75,
     "clerkId": "clerkId"
@@ -147,7 +147,7 @@
     "name": "classic rocking chair",
     "company": "Traditionals",
     "description": "A classic rocking chair with a timeless design, perfect for relaxation.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/7118797/pexels-photo-7118797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 220,
     "clerkId": "clerkId"
@@ -156,7 +156,7 @@
     "name": "compact shoe rack",
     "company": "OrganizeMe",
     "description": "A compact shoe rack that fits neatly in small spaces, helping you stay organized.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/1556761/pexels-photo-1556761.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 60,
     "clerkId": "clerkId"
@@ -174,7 +174,7 @@
     "name": "vintage-inspired mirror",
     "company": "Reflective Moments",
     "description": "A vintage-inspired mirror with an ornate frame, adding a touch of elegance to any room.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/774866/pexels-photo-774866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 130,
     "clerkId": "clerkId"
@@ -183,7 +183,7 @@
     "name": "modern console table",
     "company": "Entryway Chic",
     "description": "A modern console table that enhances the look of your entryway or hallway.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/7195530/pexels-photo-7195530.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 170,
     "clerkId": "clerkId"
@@ -201,7 +201,7 @@
     "name": "sleek floor lamp",
     "company": "BrightLiving",
     "description": "A sleek floor lamp with a minimalist design, providing the perfect ambiance.",
-    "featured": true,
+    "featured": false,
     "image": "https://images.pexels.com/photos/1484981/pexels-photo-1484981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "price": 90,
     "clerkId": "clerkId"
