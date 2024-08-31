@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { fetchAllProducts } from "@/utils/actions";
 import Link from "next/link";
+import ProductInfiniteScroll from "./ProductInfiniteScroll";
 
 async function ProductsContainer({
   layout,
@@ -48,17 +49,13 @@ async function ProductsContainer({
         <Separator className="mt-4" />
       </section>
       {/* PRODUCTS */}
-      <div>
-        {totalProducts === 0 ? (
-          <h5 className="text-2xl mt-16">
-            Sorry, no products matched your search...
-          </h5>
-        ) : layout === "grid" ? (
-          <ProductsGrid products={products} />
-        ) : (
-          <ProductsList products={products} />
-        )}
-      </div>
+      <ProductInfiniteScroll
+        totalProducts={totalProducts}
+        intialProducts={products}
+        layout={layout}
+        search={search}
+        key={search}
+      />
     </>
   );
 }

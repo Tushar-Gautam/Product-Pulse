@@ -51,7 +51,14 @@ export const fetchFeaturedProducts = async () => {
   });
 };
 
-export const fetchAllProducts = async ({ search = "" }: { search: string }) => {
+export const fetchAllProducts = async ({
+  search = "",
+  page = 1,
+}: {
+  search: string;
+  page?: number;
+}) => {
+  const numOfProducts = 6;
   return db.product.findMany({
     where: {
       OR: [
@@ -60,6 +67,8 @@ export const fetchAllProducts = async ({ search = "" }: { search: string }) => {
       ],
     },
     orderBy: { createdAt: "desc" },
+    skip: (page - 1) * numOfProducts,
+    take: numOfProducts,
   });
 };
 
