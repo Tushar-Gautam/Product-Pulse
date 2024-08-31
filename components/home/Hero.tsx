@@ -10,9 +10,11 @@ function Hero() {
           We are changing the way you shop.
         </h1>
         <p className="mt-8 max-w-xl text-lg leading-8 text-muted-foreground">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A saepe
-          corporis voluptatibus harum laborum totam necessitatibus ea sit
-          perferendis dolore!
+          Shop the future with Product Pulse—where convenience meets innovation.
+          Discover the latest trends, quality products, and a seamless shopping
+          experience. From essentials to something special, we&apos;ve got you
+          covered. Shop smarter, live better, and stay in tune with the pulse of
+          modern retai
         </p>
         <Button asChild size="lg" className="mt-10">
           <Link href="/products">Shop Now</Link>

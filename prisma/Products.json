@@ -34,5 +34,185 @@
     "image": "https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "price": 400,
     "clerkId": "clerkId"
+  },
+  {
+    "name": "minimalist nightstand",
+    "company": "Sleek Designs",
+    "description": "A simple, elegant nightstand with a minimalist design. Perfect for modern bedrooms.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/18145480/pexels-photo-18145480/free-photo-of-book-lying-on-a-wooden-bedside-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 50,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "luxury wardrobe",
+    "company": "AristoCraft",
+    "description": "Spacious wardrobe with ample storage, crafted with premium materials for a luxurious feel.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/6508343/pexels-photo-6508343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 900,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "vintage bookshelf",
+    "company": "RetroRoots",
+    "description": "A charming bookshelf with a vintage aesthetic, perfect for book lovers.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/1125130/pexels-photo-1125130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 150,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "elegant dining table",
+    "company": "FeastFurnish",
+    "description": "An elegant dining table with a sleek finish, ideal for family dinners.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 600,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "cozy armchair",
+    "company": "ComfortNest",
+    "description": "A cozy armchair that provides the ultimate relaxation experience.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/923192/pexels-photo-923192.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 250,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "modern TV stand",
+    "company": "TechSpace",
+    "description": "A sleek TV stand with a modern design, perfect for your entertainment setup.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/6580225/pexels-photo-6580225.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 120,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "rustic coffee table",
+    "company": "TimberCraft",
+    "description": "A rustic coffee table with a sturdy build, adding warmth to any living room.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/2387754/pexels-photo-2387754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 200,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "chic vanity desk",
+    "company": "Glamorous Living",
+    "description": "A chic vanity desk with a sleek design, perfect for your makeup and grooming essentials.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/8580762/pexels-photo-8580762.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 180,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "ergonomic office chair",
+    "company": "WorkComfort",
+    "description": "An ergonomic office chair designed for maximum comfort and productivity.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 300,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "stylish bar stool",
+    "company": "BarCraft",
+    "description": "A stylish bar stool with a modern design, ideal for your home bar.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/8143712/pexels-photo-8143712.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 100,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "contemporary side table",
+    "company": "UrbanLuxe",
+    "description": "A contemporary side table that blends seamlessly with modern decor.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/6373015/pexels-photo-6373015.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 75,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "luxurious bed frame",
+    "company": "RoyalRest",
+    "description": "A luxurious bed frame with a premium finish, offering both comfort and style.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 850,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "classic rocking chair",
+    "company": "Traditionals",
+    "description": "A classic rocking chair with a timeless design, perfect for relaxation.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/7118797/pexels-photo-7118797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 220,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "compact shoe rack",
+    "company": "OrganizeMe",
+    "description": "A compact shoe rack that fits neatly in small spaces, helping you stay organized.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/1556761/pexels-photo-1556761.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 60,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "elegant dresser",
+    "company": "SophistiHome",
+    "description": "An elegant dresser with ample storage space, crafted with a sophisticated design.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/833931/pexels-photo-833931.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 450,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "vintage-inspired mirror",
+    "company": "Reflective Moments",
+    "description": "A vintage-inspired mirror with an ornate frame, adding a touch of elegance to any room.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/774866/pexels-photo-774866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 130,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "modern console table",
+    "company": "Entryway Chic",
+    "description": "A modern console table that enhances the look of your entryway or hallway.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/7195530/pexels-photo-7195530.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 170,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "comfortable Bean bag",
+    "company": "RestEase",
+    "description": "A comfortable bean bag with adjustable settings, perfect for unwinding after a long day.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/3360204/pexels-photo-3360204.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 350,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "sleek floor lamp",
+    "company": "BrightLiving",
+    "description": "A sleek floor lamp with a minimalist design, providing the perfect ambiance.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/1484981/pexels-photo-1484981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 90,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "luxury patio set",
+    "company": "Outdoor Bliss",
+    "description": "A luxury patio set that offers comfort and style for outdoor relaxation.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/4394282/pexels-photo-4394282.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "price": 700,
+    "clerkId": "clerkId"
   }
 ]
