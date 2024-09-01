@@ -553,14 +553,12 @@ export const createOrderAction = async (prevState: any, formData: FormData) => {
   const user = await getAuthUser();
   let orderId: null | string = null;
   let cartId: null | string = null;
-
   try {
     const cart = await fetchOrCreateCart({
       userId: user.id,
       errorOnFailure: true,
     });
     cartId = cart.id;
-
     await db.order.deleteMany({
       where: {
         clerkId: user.id,
@@ -584,6 +582,7 @@ export const createOrderAction = async (prevState: any, formData: FormData) => {
   }
   redirect(`/checkout?orderId=${orderId}&cartId=${cartId}`);
 };
+
 export const fetchUserOrders = async () => {
   const user = await getAuthUser();
   const orders = await db.order.findMany({
