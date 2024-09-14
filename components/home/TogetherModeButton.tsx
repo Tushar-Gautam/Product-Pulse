@@ -10,6 +10,7 @@ import { Users } from "lucide-react";
 
 export default function TogetherModeFloat() {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="fixed bottom-6 right-6 z-50">
       <Popover open={isOpen} onOpenChange={setIsOpen}>
@@ -21,7 +22,7 @@ export default function TogetherModeFloat() {
             onClick={() => console.log("TogetherMode activated!")}
             role="button"
             tabIndex={0}
-            aria-label="Activate Together Mode"
+            aria-label="TogetherMode - Coming Soon"
           >
             <Users className="h-6 w-6" />
           </div>
@@ -37,12 +38,11 @@ export default function TogetherModeFloat() {
               Together Mode
             </h4>
             <p className="text-sm text-muted-foreground">
-              Collaborate in real-time and share your browsing experience with
-              friends.
+              Coming soon: Shop with friends in real-time!
             </p>
             <div className="h-1 w-full bg-secondary rounded"></div>
             <p className="text-xs text-accent-foreground">
-              👥 Shop together, find better deals!
+              👥 Stay tuned for collaborative shopping!
             </p>
           </div>
         </PopoverContent>
