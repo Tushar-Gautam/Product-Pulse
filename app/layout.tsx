@@ -6,6 +6,7 @@ import Container from "@/components/global/Container";
 import Providers from "./Providers";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Analytics } from "@vercel/analytics/react";
+import TogetherModeFloat from "@/components/home/TogetherModeButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
           <Providers>
             <Navbar />
             <Container className="py-20">{children}</Container>
+            <TogetherModeFloat />
           </Providers>
           <Analytics />
         </body>
