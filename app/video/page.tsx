@@ -12,7 +12,7 @@ import {
 } from "agora-rtc-react";
 import React, { useState } from "react";
 
-export const Basics = () => {
+const Basics = () => {
   const [calling, setCalling] = useState(false);
   const isConnected = useIsConnected(); // Store the user's connection status
   const [appId, setAppId] = useState("");
