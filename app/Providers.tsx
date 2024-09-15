@@ -1,10 +1,8 @@
 "use client";
 import { ThemeProvider } from "./theme-provider";
 import { Toaster } from "@/components/ui/toaster";
-import AgoraRTC, { AgoraRTCProvider } from "agora-rtc-react";
 
 function Providers({ children }: { children: React.ReactNode }) {
-  const client = AgoraRTC.createClient({ mode: "rtc", codec: "vp8" });
   return (
     <>
       <Toaster />
@@ -14,7 +12,7 @@ function Providers({ children }: { children: React.ReactNode }) {
         enableSystem
         disableTransitionOnChange
       >
-        <AgoraRTCProvider client={client}>{children}</AgoraRTCProvider>
+        {children}
       </ThemeProvider>
     </>
   );

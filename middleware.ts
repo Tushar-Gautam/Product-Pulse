@@ -5,7 +5,7 @@ const isPublicRoute = createRouteMatcher([
   "/",
   "/products(.*)",
   "/about",
-  "/video",
+  "/channel(.*)",
 ]);
 const isAdminRoute = createRouteMatcher(["/admin(.*)"]);
 const isPrivateRoute = createRouteMatcher([
