@@ -10,7 +10,6 @@ const ChannelRoom = ({ params }: { params: { channelId: string } }) => {
   let myMeeting: any = async (element: any) => {
     const appID = +process.env.ZEGO_APP_ID!;
     const serverSecret = process.env.ZEGO_SERVER_SECRET_KEY!;
-    console.log(process.env.ZEGO_APP_ID, serverSecret, channelID, user);
 
     if (!user?.id || !user?.fullName) throw new Error("User not found");
 
