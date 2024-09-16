@@ -13,7 +13,7 @@ const isPrivateRoute = createRouteMatcher([
   "/favorites",
   "/orders",
   "/reviews",
-  "/checkout(.*)",
+  "/together-mode(.*)",
 ]);
 
 export default clerkMiddleware((auth, req) => {
