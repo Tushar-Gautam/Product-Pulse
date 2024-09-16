@@ -2,48 +2,54 @@
 
 import { useUser } from "@clerk/nextjs";
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
+import { useEffect, useRef } from "react";
 
 const ChannelRoom = ({ params }: { params: { channelId: string } }) => {
   const channelID = params.channelId;
   const { user } = useUser();
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  let myMeeting: any = async (element: any) => {
-    const appID = +process.env.ZEGO_APP_ID!;
-    const serverSecret = process.env.ZEGO_SERVER_SECRET_KEY!;
+  useEffect(() => {
+    const joinRoom = async () => {
+      if (!containerRef.current || !user?.id || !user?.fullName) return;
 
-    if (!user?.id || !user?.fullName) throw new Error("User not found");
+      const appID = Number(process.env.NEXT_PUBLIC_ZEGO_APP_ID);
+      const serverSecret = process.env.NEXT_PUBLIC_ZEGO_SERVER_SECRET_KEY;
 
-    const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
-      appID,
-      serverSecret,
-      channelID,
-      user?.id,
-      user?.fullName || "user",
-      300
-    );
+      if (!appID || !serverSecret) {
+        console.error("ZEGO credentials are missing");
+        return;
+      }
 
-    // Create instance object from Kit Token.
-    const zp = ZegoUIKitPrebuilt.create(kitToken);
-    // start the call
-    zp.joinRoom({
-      container: element,
-      sharedLinks: [
-        {
-          name: "Sharable link",
-          url:
-            window.location.protocol +
-            "//" +
-            window.location.host +
-            window.location.pathname +
-            "?roomID=" +
-            channelID,
+      const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
+        appID,
+        serverSecret,
+        channelID,
+        user.id,
+        user.fullName,
+        300
+      );
+
+      const zp = ZegoUIKitPrebuilt.create(kitToken);
+
+      zp.joinRoom({
+        container: containerRef.current,
+        sharedLinks: [
+          {
+            name: "Sharable link",
+            url: `${window.location.origin}${window.location.pathname}?roomID=${channelID}`,
+          },
+        ],
+        scenario: {
+          mode: ZegoUIKitPrebuilt.VideoConference,
         },
-      ],
-      scenario: {
-        mode: ZegoUIKitPrebuilt.VideoConference,
-      },
-    });
-  };
-  return <div className="w-full h-screen" ref={myMeeting}></div>;
+      });
+    };
+
+    joinRoom();
+  }, [channelID, user]);
+
+  return <div className="w-full h-screen" ref={containerRef}></div>;
 };
+
 export default ChannelRoom;
